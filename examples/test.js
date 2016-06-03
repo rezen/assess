@@ -1,7 +1,7 @@
 'use strict';
 
-const assess = require('./index');
-const Hey    = require('./test/hey');
+const assess = require('../index');
+const Hey    = require('../test/hey');
 
  function catDog ({name: x}, callback, cats = [1, 3], dogs = {a: 'b', c: 'd'}, ...other) {
       if (cats.length) {
