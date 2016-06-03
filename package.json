@@ -1,12 +1,12 @@
 {
   "name": "assess",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A powerful yet simple reflection api",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/rezen/reflect-js.git"
+    "url": "git://github.com/rezen/assess.git"
   },
   "keywords": [
     "reflect",
