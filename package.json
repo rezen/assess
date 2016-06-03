@@ -1,0 +1,43 @@
+{
+  "name": "assess",
+  "version": "0.0.1",
+  "description": "A powerful yet simple reflection api",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rezen/reflect-js.git"
+  },
+  "keywords": [
+    "reflect",
+    "inspect",
+    "debug",
+    "assess",
+    "type"
+  ],
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "author": "Andres Hermosilla <an2dres5m@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rezen/assess/issues"
+  },
+  "devDependencies": {
+    "bluebird": "^3.4.0",
+    "eventemitter2": "^1.0.3",
+    "gulp": "^3.8.11",
+    "gulp-buffer": "0.0.2",
+    "gulp-jscs": "^1.6.0",
+    "gulp-jshint": "^1.10.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-notify-growl": "1.0.2",
+    "gulp-watch": "^4.2.4",
+    "jshint-stylish": "^1.0.2",
+    "mocha": "^2.2.4",
+    "sinon": "^1.17.3"
+  },
+  "dependencies": {
+    "acorn": "^3.1.0"
+  }
+}
