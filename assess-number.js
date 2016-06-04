@@ -4,6 +4,12 @@ const AssessObject = require('./assess-object');
 
 class AssessNumber extends AssessObject {
 
+  constructor(object) {
+    super()
+    if (!object) {return this;}
+    this.parse(...arguments);
+  }
+
   /**
    * @param  {Number} object
    * @param  {String} label

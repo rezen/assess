@@ -15,8 +15,9 @@ class AssessFunction extends AssessObject {
   constructor(object) {
     super()
     if (!object) {return this;}
-    this.parse(object);
+    this.parse(...arguments);
   }
+
   /**
    * @param  {Function} object
    * @param  {String}   label

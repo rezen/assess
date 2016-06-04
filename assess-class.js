@@ -9,6 +9,12 @@ const Unsure = Symbol.for('Unsure');
 
 class AssessClass extends AssessFunction {
 
+  constructor(object) {
+    super()
+    if (!object) {return this;}
+    this.parse(...arguments);
+  }
+
   /**
    * @param  {Function} object
    * @param  {String}   label

@@ -14,7 +14,7 @@ class AssessObject {
   constructor(object) {
     this.meta = {};
     if (!object) {return this;}
-    this.parse(object);
+    this.parse(...arguments);
   }
 
 
