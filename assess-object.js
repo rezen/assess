@@ -224,6 +224,7 @@ class AssessObject {
 
 
 AssessObject.getProperties = function(object) {
+  if (!object) {return [];}
   return Object.getOwnPropertyNames(object)
     .concat(Object.getOwnPropertySymbols(object));
 };
