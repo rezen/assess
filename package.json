@@ -1,6 +1,6 @@
 {
   "name": "assess",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A powerful yet simple reflection api",
   "main": "index.js",
   "scripts": {},
