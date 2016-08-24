@@ -162,7 +162,7 @@ class AssessObject {
    * @return {Object}
    */
   getPrototypeChain(depth) {
-    const Class = this.assess;
+    let Class = this.assess;
     depth = depth || 11;
 
     if (typeof Class === 'object') {
